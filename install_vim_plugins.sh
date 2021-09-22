@@ -2,9 +2,6 @@
 
 mkdir -p ~/.vim/pack/vendor/start/
 mkdir -p ~/.vim/colors/
-cd ~/.vim/colors/
-curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
-cd -
 git clone https://github.com/rking/ag.vim.git ~/.vim/pack/vendor/start/ag.vim
 git clone https://github.com/junegunn/fzf.git ~/.vim/pack/vendor/start/fzf.vim
 # ~/.vim/pack/vendor/start/fzf.vim/install

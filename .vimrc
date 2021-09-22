@@ -1,4 +1,4 @@
-colorscheme jellybeans
+colorscheme desert
 
 syntax on
 inoremap jj <Esc>
