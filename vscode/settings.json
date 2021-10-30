@@ -1,0 +1,80 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "editor.defaultFormatter": "vscodevim.vim",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnType": true,
+  "editor.detectIndentation": false,
+  "editor.trimAutoWhitespace": true,
+  "terminal.integrated.copyOnSelection": true,
+  "files.autoSave": "afterDelay",
+  "vim.ignorecase": false,
+  "vim.smartcase": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordBasedSuggestions": false
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+  },
+  // "files.trimFinalNewlines": true,
+  // "[rust]": {
+  //   "editor.tabSize": 4
+  // },
+  // "[java]": {
+  //   "editor.tabSize": 4
+  // },
+  // "[ruby]": {
+  //     "editor.tabSize": 2
+  // },
+  // "editor.suggestSelection": "first",
+  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "files.exclude": {
+  //   "**/.classpath": true,
+  //   "**/.project": true,
+  //   "**/.settings": true,
+  //   "**/.factorypath": true
+  // },
+  // "java.project.importOnFirstTimeStartup": "automatic",
+  // "java.imports.gradle.wrapper.checksums": [
+  //   {
+  //     "sha256": "803c75f3307787290478a5ccfa9054c5c0c7b4250c1b96ceb77ad41fbe919e4e",
+  //     "allowed": true
+  //   }
+  // ],
+  // "java.refactor.renameFromFileExplorer": "autoApply",
+  // "latex-workshop.view.pdf.viewer": "tab",
+  // "maven.excludedFolders": [
+  //   "**/.*",
+  //   "**/node_modules",
+  //   "**/target",
+  //   "**/bin"
+  // ],
+  // "maven.pomfile.autoUpdateEffectivePOM": true,
+  // "codeQL.telemetry.enableTelemetry": true,
+  // "[json]": {
+  //   "editor.quickSuggestions": {
+  //     "strings": true
+  //   },
+  //   "editor.suggest.insertMode": "replace"
+  // },
+  // "redhat.telemetry.enabled": true,
+  // "[python]": {
+  //     "editor.insertSpaces": true,
+  //     "editor.detectIndentation": true,
+  //     "editor.tabSize": 4
+  // },
+}
