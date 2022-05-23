@@ -1,0 +1,17 @@
+
+[{
+  "key": "ctrl+k ctrl+w",
+  "command": "workbench.action.closeAllEditors",
+},{
+  "key": "ctrl+w",
+  "command": "workbench.action.closeActiveEditor",
+},{
+  "key": "ctrl+i",
+  "command": "workbench.action.focusActiveEditorGroup",
+  "when": "terminalFocus"
+},{
+  "key": "ctrl+i",
+  "command": "workbench.action.terminal.focus",
+  "when": "editorFocus"
+}
+]
